@@ -37,6 +37,19 @@ let person = {
 // Chciałbym utworzyć następującą zmienną: 
 // const result = `Moje auto to ${name} i zostało wyprodukowane w roku ${productionYear}` 
 // Jak zrobić aby taka zmienna wyświetliła poprawne dane z obiektu, nie zmieniając treści zmiennej?
+
+
+//Odp należy na początku klucza dodać nazwę obiektu i dodać . pomiędzy obiektem a kluczem  (tzw. dot notation)
+const car = {
+    name: 'mustang',
+    productionYear: 2020,
+    color: 'red'
+  }
+  const result = `Moje auto to ${car.name} i zostało wyprodukowane w roku ${car.productionYear}` 
+
+  console.log(result)
+
+
 // d) Skróć zapis kodu jak najbardziej się da bez usuwania zmiennej isAdult
 // (zrób to na dwa sposoby, bez użycia ternary operatora i z uzyciem):
 // const isAdult = true
@@ -45,3 +58,11 @@ let person = {
 // } else if(isAdult === false) {
 //   return 'Nie możesz kupić alkoholu, jesteś nieletni!'
 // }
+
+isAdult = false? console.log('Możesz kupić alkohol') : console.log('Nie możesz kupić alkoholu, jesteś nieletni')
+
+
+//ternary operator
+const isAdult = false? 'Możesz kupić alkohol' : 'Nie możesz kupić alkoholu, jesteś nieletni'
+
+console.log(isAdult)
