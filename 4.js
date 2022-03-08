@@ -37,7 +37,7 @@ console.log(arryOfCars.length)           //właściwość length użyta w konsol
 // h) *** Czy wiesz jak stworzyć pustę tablicę ? dodać do niej losową wartość i wyświetlić za pomocą
 // console.loga już zmienioną tablicę?
 
-let shoppingList = [];
+const shoppingList = [];
 shoppingList.push("juice", "pasta")     // dodaje element na koniec tablicy za pomocą .push lub .unshift na początek tablicy
 console.log(shoppingList)
 

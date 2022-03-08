@@ -3,4 +3,4 @@
 
 let number = 5
 
-console.log(number + 10 + 15, number)
+console.log("wynik", number + 10 + 15) 

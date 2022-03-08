@@ -87,3 +87,6 @@ isAdult = false? console.log('Możesz kupić alkohol') : console.log('Nie możes
 const isAdult = false? 'Możesz kupić alkohol' : 'Nie możesz kupić alkoholu, jesteś nieletni'
 
 console.log(isAdult)
+
+if (isAdult) "Mozesz kupic alkohol";
+"Nie mozesz kupic alkoholu";
